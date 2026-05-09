@@ -1,0 +1,125 @@
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.dayContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 60px;
+}
+
+.day {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.selectDay {
+  padding: 14px 20px;
+  text-decoration: none;
+  background: #eef0f4;
+  transition: 0.5s;
+  border-radius: 14px;
+  color: #484848;
+}
+
+.selectDay:hover {
+  background: #daeafd;
+  cursor: pointer;
+  transition: 0.5s;
+  color: #356ce3;
+}
+
+.dayHeader {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.back {
+  padding: 10px 16px;
+  text-decoration: none;
+  background: #eee;
+  border-radius: 14px;
+  color: #555;
+}
+
+.words {
+  margin-top: 60px;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.selectWord {
+  padding: 30px;
+  text-decoration: none;
+  background: #eef0f4;
+  transition: 0.5s;
+  border-radius: 14px;
+  color: #484848;
+}
+
+.answerBtn {
+  padding: 10px 16px;
+  border-radius: 14px;
+  border: none;
+  color: #555;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.changeWord {
+  padding: 10px 16px;
+  border-radius: 14px;
+  background: #daeafd;
+  text-decoration: none;
+  color: #356ce3;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.kanji {
+  font-size: 48px;
+  font-weight: 500;
+  color: #222;
+  margin-bottom: 30px;
+}
+
+.reading {
+  font-size: 24px;
+  font-weight: 500;
+  color: #222;
+}
+
+.meaning {
+  color: #222;
+  margin: 10px 0 40px 0;
+  font-weight: 500;
+}
